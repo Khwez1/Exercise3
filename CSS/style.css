@@ -1,0 +1,64 @@
+:root{
+    --sec: #00bffc;
+    --fav: #ffe101;
+    --eca: #05e101;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+h1,h2,h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+p {
+    color: white;
+}
+
+img{
+    width: 50%;
+    height: auto;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+}
+
+.navbar {
+    border: solid;color: black;
+    background-color: black;
+    padding: 1rem;
+}
+
+p::first-letter {
+    color: aqua;
+}
+
+a:hover {
+    color: red;
+}
+
+
+
+@media screen and (max-width:390px){
+    body{
+        background-color: var(--sec);
+    }  
+}
+
+@media screen and (min-width:414px) {
+    body{
+        background-color: var(--fav);
+    }
+}
+
+@media screen and (min-width:414px) {
+    body{
+        background-color: var(--eca);
+    }
+}
